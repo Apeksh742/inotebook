@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i {
+  cursor: pointer;
+}
+
+.login {
+  background-color: rgb(172, 167, 227);
+  background-size: cover;
+
+  height: 100vh;
+  background-blend-mode: multiply;
+  color: white;
+  background-repeat: no-repeat;
+  background-image: url('background.jpg');
+
+}
+
+.login-form {
+  margin: auto
+}
+
+.login-form .h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.login-form button {
+  background: rgb(103, 209, 222);
+  color: white;
+  padding: 8px 0;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(103, 209, 222, 1) 0%, rgba(225, 64, 246, 1) 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-text {
+  max-height: 10rem;
+  overflow-y: scroll;
+}
+
+.alert {
+  margin: 0;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: inherit;
+}
+.noteItem .card{
+ background-color: #262837;
+}
+.add-note input[type="text"]{
+  background-color: #262837;
+  border: none;
+  color: white;
+}
+.add-note textarea[type="textArea"]{
+  background-color: #262837;
+    border: none;
+    color: white;
+}
+
+.home{
+  color: white;
+  background-color: #1F1D2C;
+}
+.modal-content{
+  background-color: #1F1D2C;
+}
+.modal-input[type="text"]{
+  background-color: #262837;
+  border: none;
+  color: white;
+}
+.modal-input[type="textArea"] {
+  background-color: #262837;
+  border: none;
+  color: white;
+}
